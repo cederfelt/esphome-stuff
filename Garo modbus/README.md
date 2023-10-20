@@ -9,14 +9,21 @@ This configuration file is an example of how to retrieve data from a Garo energy
 * Esphome
 
 ## Wiring:  
-Pico to DollaTek  
-GPIO00 - pin 1 - UART TX pin on Pico  
-GPIO01 - pin 2 - UART RX pin on Pico  
+How to wire, other pins with the same functionality can of course be used instead.   
+pico pinout https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf  
 
-DollaTek to Garo    
-A + -> Garo B+ (8)  
-B - -> Garo A- (9)  
-Third (GND) -> Garo GND (10)  
+| GPIO | Pin number |Description | DollaTek RS485 Pin |
+|-|-|-|-|
+| 00 | 1 | UART TX | TXD |
+| 01 | 2 | UART RX | RXD |
+| - | 36 | 3_3 | VCC |
+| - | 38 | GND | GND |
+
+| DollaTek RS495 Pin | Garo pin name | Garo Pin number|
+|-|-|-|
+| A+ | B+ | 8 |
+| B- | A- | 9 |
+| GND | GND | 10 |d
 
 ## 
 It does not read all data that is available in the meter but adding more should be fairly simple. 
