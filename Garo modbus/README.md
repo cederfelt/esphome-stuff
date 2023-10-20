@@ -23,7 +23,7 @@ pico pinout https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf
 |-|-|-|
 | A+ | B+ | 8 |
 | B- | A- | 9 |
-| GND | GND | 10 |d
+| GND | GND | 10 |
 
 ## 
 It does not read all data that is available in the meter but adding more should be fairly simple. 
