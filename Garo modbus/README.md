@@ -2,13 +2,13 @@
 
 This configuration file is an example of how to retrieve data from a Garo energy meter 
 
-## Component
+## Components
 * A Raspberry Pico W  
 * DollaTek TTL to RS485 [Amazon](https://www.amazon.se/DollaTek-RS485-adapter-seriell-niv%C3%A5omvandlare/dp/B07DJ4TGY3)  
 * Garo [GNM3D-RS485](https://www.garo.se/sv/produkter/energimatare/energimatare-3-fas-direktmatare/energimatare-3f-modb-rs485), can find documentation about the protocol.
 * Esphome
 
-## Wiring:  
+## Wiring
 How to wire, other pins with the same functionality can of course be used instead.   
 pico pinout https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf  
 
